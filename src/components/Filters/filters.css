@@ -1,0 +1,12 @@
+.section-filters{
+    color:#6ECCAF ;
+}
+.collapse:not(.show) {
+    display: flex;
+}
+.btn-filters{
+    display: none;
+}
+.filters-area {
+    justify-content: start;
+}

@@ -1,0 +1,19 @@
+
+
+.home-header{
+    height: 100vh;
+
+}
+
+.container-home {
+    background-color: #ffffffe6;
+    height: 600px;
+    width: 600px;
+}
+
+.home-title{
+    color: #223142;
+    font-weight: 500;
+}
+
+

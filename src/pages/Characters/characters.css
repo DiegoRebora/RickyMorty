@@ -10,21 +10,24 @@
 .section-filters{
     color:#6ECCAF ;
 }
-.collapse:not(.show) {
-    display: flex;
-}
+
 .btn-filters{
     display: none;
 }
-.filters-area {
-    justify-content: start;
-}
+
 .alert{
     background-color:#6ECCAF;
     color:  #344d67;
     width: 98% !important;
 
 }
+#icon {
+    font-size: 27px;
+}
+.collapse:not(.show) {
+    display: flex;
+}
+
 
 @media(max-width:800px){
     .filtersh2{
@@ -59,6 +62,8 @@
     }
     .bi-sliders {
         display:block
+
     }
+
 
 }

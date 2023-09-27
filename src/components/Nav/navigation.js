@@ -1,4 +1,6 @@
 import './navigation.css'
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -7,16 +9,16 @@ export default function Nav({itemMenu}) {
     <header className="bg-blue">
       <nav className="navbar navbar-expand-lg w-100 bg-blue">
         <div className="container-fluid justify-content-between align-items-center">
-            <a className="text-decoration-none" href="#">
+            <Link to="/" className="text-decoration-none" href="#">
             <h1 className="navbar-brand cursor-p">Rick & Morty</h1>
-            </a>
+            </Link>
           <div className="navbar-collapse justify-content-end collapse" id="navbarSupportedContent">
             <ul className="navbar nav-pills p-4">
                 <li className="nav-item m-2">
-                  <a className="nav-link btn-active p-2" href="#">{itemMenu}</a>
+                  <Link to="/characters" className="nav-link btn-active p-2" >Characters</Link>
                 </li>
                 <li className="nav-item m-2">
-                  <a className="nav-link botonav p-2" href="#">Contact</a>
+                  <Link to= "/contact" className="nav-link botonav p-2" >Contact</Link>
                 </li>
             </ul>
           </div>

@@ -93,9 +93,9 @@ export default function Character() {
               <section className="row section-filters py-5">
                 <div className="filters-area d-flex m-2 align-items-center">
                   <h2 className="filtersh2">Filters</h2>
-                  <button type="button" className="btn btn-filters collapsed" data-bs-toggle="collapse" href="#collapseFilters" role="button" aria-expanded="false" aria-controls="collapseFilters">
+                  <a type="button" className="btn btn-filters" data-bs-toggle="collapse" href="#collapseFilters" role="button" aria-expanded="false" aria-controls="collapseFilters" id="icon">
                     <i className="bi bi-sliders"></i>
-                  </button>
+                  </a>
                 </div>
                 <div className="collapse filters justify-content-between flex-wrap" id="collapseFilters">
                   {filters.map((item) => { return <Filter key={item.name} filterValue={item.filter} filterId={item.name} handlerChange={applyFilters} />})}

@@ -1,4 +1,6 @@
 import './home.css';
+import { Link } from 'react-router-dom';
+
 
 function Home() {
     return ( 
@@ -16,10 +18,10 @@ function Home() {
                 <nav className='row navbar align-items-center'>
                     <ul className='nav nav-pills justify-content-center'>
                         <li className='nav-item'>
-                            <a className='nav-link active m-2 p-3 botones' href='/characters'>Characters</a>
+                            <Link to="/characters" className='nav-link active m-2 p-3 botones' href='/characters'>Characters</Link>
                         </li>
                         <li className='nav-item'>
-                            <a className='nav-link active m-2 p-3 botones' href='/contact'>Contact</a>
+                            <Link to="/contact" className='nav-link active m-2 p-3 botones' href='/contact'>Contact</Link>
                         </li>
 
 

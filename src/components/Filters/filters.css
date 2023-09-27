@@ -1,6 +1,6 @@
-.section-filters{
-    color:#6ECCAF ;
-}
+
+
+
 .collapse:not(.show) {
     display: flex;
 }
@@ -9,4 +9,18 @@
 }
 .filters-area {
     justify-content: start;
+}
+.form-switch{
+    color:#6ECCAF ;
+    background-color: #344D67;
+    border-radius: 8px;
+}
+.form-switch .form-check-input{
+    background-color: #b1f0dc ;
+}
+.form-switch .form-check-input:checked{
+    background-color: #223142; 
+}
+.form-check-input:checked+ .form-check-label{
+    color: whitesmoke;
 }

@@ -1,17 +1,13 @@
 import './filters.css'
 
-export default function Filter() {
+export default function Filter({filterValue, filterId,handlerChange}) {
     return(
 
+              <div className="form-check form-switch px-5 py-2">
+                <input className="form-check-input" type="checkbox" role="switch" id={filterId} onChange={handlerChange}/>
+                <label className="form-check-label" htmlFor={filterId}>{filterValue}</label>
+              </div>
 
-        <section className="row section-filters py-5">
-            <div className="filters d-fllex m-2 align-items-center">
-                <h2>Filters</h2>
-
-
-            </div>
-
-       </section>
 
     )
 }

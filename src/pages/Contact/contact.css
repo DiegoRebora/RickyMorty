@@ -1,0 +1,59 @@
+
+.contact-div{
+    
+    background-color: rgba(92, 117, 146,0.9);
+
+    
+}
+
+.colorBlue{
+    color:#223142!important;
+}
+.colorW{
+    color: whitesmoke !important;
+}
+textarea{
+    height: 300px;
+}
+.bg-green{
+    background-color: #6ECCAF ;
+    color: #344D67;
+    border-radius: 0.375rem;
+}
+.text-send{
+    font-size: 1.5em;
+    
+}@media(max-width:900px){
+    .contact-div>h3,.text-send{
+        font-size: 1em ;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    
+    }
+    .contact-div>h2{
+        font-size: 2em;
+    }
+
+}
+
+
+
+@media(max-width:650px){
+    .contact-div{
+        width: 100%!important;
+    }
+    .contact-div>h3,.text-send{
+        font-size: 1em ;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    
+    }
+    .contact-div>h2{
+        font-size: 2em;
+    }
+
+}

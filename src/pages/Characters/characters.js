@@ -9,7 +9,7 @@ import Filter from '../../components/Filters/filters.js'
 
 
 export default function Character() {
-    let [itemMenu]=useState("Characters");
+    
     let [completeList, setCompleteList] = useState([]);
     let [characts, setCharacters] = useState([]);
     let [filters]=useState([{name:'Alive', filter:'Character Alive'}, {name:'Dead', filter:'Character Dead'}, {name:'Female', filter:'Female'}, {name:'Male', filter:'Male'}, {name:'unknown', filter:'Origin Unknown'}]);
@@ -87,7 +87,7 @@ export default function Character() {
 
   return(
         <Fragment>
-            <Nav itemMenu={itemMenu}/>
+            <Nav itemMenu={"Characters"}/>
 
             <main className='container-fluid'>
               <section className="row section-filters py-5">

@@ -6,13 +6,12 @@
 }
 .botones{
   background-color:#223142!important;
-  width: 113px;
   text-align: center;
 }
 .botones:hover, .boton:hover, .btn-active, .botonav:hover {
   background-color: #b1f0dc!important;
   color: #223142!important;
-  width: fit-content;
+  
   
 }
 

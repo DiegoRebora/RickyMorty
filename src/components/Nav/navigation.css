@@ -31,6 +31,13 @@ header{
 .cursor-p{
     cursor: pointer !important;
 }
+#burger{
+    font-size: 40px;
+    color:#6ECCAF;
+
+}
+
+
 @media(max-width:800px){
     header{
         padding: 2px;
